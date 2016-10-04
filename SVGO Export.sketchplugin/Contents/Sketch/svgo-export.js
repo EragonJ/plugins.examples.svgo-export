@@ -128,4 +128,4 @@ function runCommand(command, args) {
 }
 
 
-// If you have questions, comments or any feedback, ping us at <developers@sketchapp.com>!
+// If you have questions, comments or any feedback, ping us at <developer@sketchapp.com>!
