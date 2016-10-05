@@ -1,8 +1,12 @@
 // SVGO Export, by Ale Muñoz — Source code available at [GitHub](https://github.com/BohemianCoding/plugins.examples.svgo-export)
 //
-// This Plugin compresses SVG assets using [SVGO](https://github.com/svg/svgo) right after they're exported from Sketch.
+// This Plugin compresses SVG assets using SVGO right after they're exported from Sketch.
+
 //
-// It uses the new Action API in Sketch 3.8, and requires svgo to be installed in `/usr/local/bin`
+// ### Dependencies
+//
+// This plugin requires [svgo](https://github.com/svg/svgo) to be installed in `/usr/local/bin`
+
 //
 // ### Manifest
 // This is the content of the `manifest.json` file for this Plugin. See how we're attaching the Plugin to the `ExportSlices.finish` event in `handlers.actions` by assigning a function name (`compressSVG`, defined in `svgo.js` to the action name we're interested in).
